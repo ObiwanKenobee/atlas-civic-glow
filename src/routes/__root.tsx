@@ -88,11 +88,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         property: "og:description",
         content:
-          "A civilization intelligence operating system for child flourishing — nutrition, microbiome, environment, and predictive interventions.",
+          "Atlas Sanctum is a planetary intelligence platform ending hidden hunger and unlocking human potential through predictive systems architecture.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@AtlasSanctum" },
+      { name: "twitter:title", content: "Atlas Sanctum · Child Flourishing Intelligence Network" },
+      { name: "twitter:description", content: "Atlas Sanctum is a planetary intelligence platform ending hidden hunger and unlocking human potential through predictive systems architecture." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d7afb9eb-c4f7-4f6a-bac4-b10156aea6bd/id-preview-6afabc94--41ef46b5-4b12-4e20-9451-e1a91b28a73e.lovable.app-1784638324628.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d7afb9eb-c4f7-4f6a-bac4-b10156aea6bd/id-preview-6afabc94--41ef46b5-4b12-4e20-9451-e1a91b28a73e.lovable.app-1784638324628.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
